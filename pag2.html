@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi presentación</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/estilos.css" />
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row m-3">
+        <nav class="navbar navbar-light bg-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand disabled" >Presentacion Maria Alejandra Valenzuela</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Datos sobre mi</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pag1.html">Carrera</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="pag2.html">Deportes favoritos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="pag3.html">Familia</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+       <div class="row m-5">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Natacion
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">La natación es una actividad que me apasiona desde que era niña. Recuerdo con cariño los veranos en la piscina familiar, chapoteando con mis hermanos y amigos. Desde entonces, mi amor por el agua solo ha crecido.
+
+                Me encanta la sensación de libertad que me proporciona la natación. Cuando estoy en el agua, me siento libre, como si pudiera volar. No hay nada comparable a la sensación de deslizarse por el agua con gracia y fluidez.
+                <br>
+                <br>
+                <img src="IMAG/natacion.jpeg" class="img-fluid ">
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Voley
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                El voleibol me ha cautivado recientemente, y he descubierto en él una pasión que me llena de emoción y energía.
+                
+                Me encanta  por que me gusta la adrenalina que produce el juego. La rapidez del juego, la coordinación con mis compañeros y la emoción de cada punto me hacen sentir vivo. Es un deporte que me exige al máximo, tanto física como mentalmente.              
+                <br>
+                <br>
+                <img src="IMAG/voley.jpeg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+    
+    </div>
+
+
+
+
+
+
+    <!-- script -->
+    <div class="container-fluid">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
